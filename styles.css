@@ -194,7 +194,7 @@ img {
 }
 .right .id {
     width: 30%;
-    transform: rotate(23deg) translateY(55vh) translateX(104px);
+    transform: rotate(23deg) translateY(55vh) translateX(120px);
 }
 .right .ps {
     transform: rotate(-5deg) translateY(78vh) translateX(-98px);
