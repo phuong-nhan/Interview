@@ -1,0 +1,255 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+    background-color: #fff3c6;
+}
+
+body {
+	background-color: #f78b9d;
+    max-width: calc(100% - 24em);
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 20em;
+}
+h1 {
+    font-size: 3.7em;
+    color: #6b4900;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    padding-top: 1.0em;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    background: #fff3c6;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+.sub {
+    font-size: 1.8em;
+    color: #6b4900;
+    text-align: center;
+    position: relative;
+    top: -5.2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.line1 {
+    width: 250px;
+    border-top: 2px solid #6b4900;
+    position: absolute;
+    top: 18.8em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.line2 {
+    width: 350px;
+    border-top: 2px solid #6b4900;
+    position: absolute;
+    top: 7.6em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.line3 {
+    width: 350px;
+    border-top: 2px solid #6b4900;
+    position: absolute;
+    top: 97.6em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.star {
+    position: absolute;
+    top: 5.8em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.star2 {
+    position: absolute;
+    top: 95.8em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.questions {
+    font-size: 1.7em;
+    font-family: 'Supermercado One', cursive;
+    color: #fff3c6;
+    border: 10px solid #6b4900;
+    background-color: #6b4900;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2.4em;
+    margin-right: 2.4em;
+    padding-left: 0.6em;
+    border-radius: 10px;
+}
+.toggle .c1 {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.toggle .c6 {
+    cursor: pointer;
+    transition: all 0.3s;
+}.toggle .c8 {
+    cursor: pointer;
+    transition: all 0.3s;
+}.toggle .c9 {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.toggle .c1:hover {
+    box-shadow: 0 0 20px 10px #fff3c6;
+}
+.toggle .c6:hover {
+    box-shadow: 0 0 20px 10px #fff3c6;
+}.toggle .c8:hover {
+    box-shadow: 0 0 20px 10px #fff3c6;
+}.toggle .c9:hover {
+    box-shadow: 0 0 20px 10px #fff3c6;
+}
+
+/* Stuff edited by Ian */
+.answers {
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff3c6;
+    margin-left: 6.1em;
+    margin-right: 6.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.toggle .answers {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.show .answers {
+    opacity: 1;
+    height: 100%;
+    transform: translateX(0em);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.c55, .c77{
+    margin-bottom: 20px;
+}
+
+/* end of stuff edited by Ian */
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.left, .right {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 7.5em;
+    height: 200vh;
+    animation-name: float;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.right {
+    right: 0;
+    left: auto;
+}
+
+.left img, .right img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    transform-origin: center center;
+    position: absolute;
+    left: 25%;
+    opacity: 0.5;
+}
+.double {
+    top: 130vh;
+}
+
+
+.right .ai {
+    width: 60%;
+    transform: rotate(17deg) translateY(4vh) translateX(-54px);
+}
+.right .an {
+    width: 40%;
+    transform: rotate(-5deg) translateY(20vh) translateX(0px);
+}
+.right .id {
+    width: 30%;
+    transform: rotate(23deg) translateY(55vh) translateX(104px);
+}
+.right .ps {
+    transform: rotate(-5deg) translateY(78vh) translateX(-98px);
+}
+.right .ru {
+    width: 40%;
+    transform: rotate(-15deg) translateY(109vh) translateX(-267px);
+}
+.right .imac {
+    width: 80%;
+    transform: rotate(6deg) translateY(36vh) translateX(-47px);
+}
+.right .pentool {
+    transform: rotate(-4deg) translateY(63vh) translateX(-24px);
+}
+.right .wacom {
+    width: 80%;
+    opacity: 0.7;
+    transform: rotate(2deg) translateY(96vh) translateX(0px);
+}
+
+.left .ai {
+    width: 60%;
+    transform: rotate(17deg) translateY(0vh) translateX(20px);
+}
+.left .an {
+    width: 40%;
+    transform: rotate(-5deg) translateY(20vh) translateX(74px);
+}
+.left .id {
+    width: 30%;
+    transform: rotate(23deg) translateY(50vh) translateX(175px);
+}
+.left .ps {
+    transform: rotate(-5deg) translateY(78vh) translateX(-24px);
+}
+.left .ru {
+    width: 40%;
+    transform: rotate(-15deg) translateY(110vh) translateX(-205px);
+}
+.left .imac {
+    width: 80%;
+    transform: rotate(6deg) translateY(36vh) translateX(27px);
+}
+.left .pentool {
+    transform: rotate(-4deg) translateY(63vh) translateX(50px);
+}
+.left .wacom {
+    width: 80%;
+    opacity: 0.7;
+    transform: rotate(2deg) translateY(96vh) translateX(44px);
+}
+
+
+@keyframes float {
+    from { top: 0; }
+    to { top: -100vh; }
+}
